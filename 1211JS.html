@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<script>
+	  var rand =Math.floor((Math.random()*10)+1);
+      var input;
+      input=window.prompt("Please guess the number from 1 to 10.")
+      while(input!=rand){
+      	input=guessingFunction()
+      }if(input==rand)
+      {confirm("Guess correctly!")
+       }
+       function guessingFunction(){
+       	return input=window.prompt("Please guess again!")
+       }
+
+  </script>
+</body>
+</html>
